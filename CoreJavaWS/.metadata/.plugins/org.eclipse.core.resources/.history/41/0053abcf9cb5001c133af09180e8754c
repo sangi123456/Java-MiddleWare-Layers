@@ -1,0 +1,12 @@
+# property file will conatain key=value
+# external configuration file
+
+message.text = hello from property file
+message.id = 1000
+user.username = vaishu
+
+#product bean values
+product.unit.pice = 30000
+product.code = 9000
+product.name= kitty
+category.name= y

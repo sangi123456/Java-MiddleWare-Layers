@@ -1,0 +1,15 @@
+package com.training.spring.core.beans;
+
+
+//register to instaantiate bean in the sring conatiner
+//initialize 2 properties productId & productName should be initialized in the constrcutor
+//
+public class Product {
+	
+    private long prouctId;
+   private String productName;
+   private double price;
+    private String category;
+	
+	
+}

@@ -1,0 +1,55 @@
+package com.training.spring.core.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import com.training.spring.core.dependbeans.User;
+
+//@component will be processed to produce <bean>  </bean>
+//<bean id = "name of the class starts with small letters"
+//only one object of the bean will bve created in the spring conatiner
+
+@Component(value="abc")
+@Scope("singleton")
+
+public class Message {
+	
+private String text;
+private long messageId;
+private User user;
+
+public String getText() {
+	return text;
+}
+
+
+public void setText(String text) {
+	this.text = text;
+}
+
+
+public long getMessageId() {
+	return messageId;
+}
+
+public void setMessageId(long messageId) {
+	this.messageId = messageId;
+}
+
+ public User getUser() {
+	return user;
+}
+
+ //automatically passes through the 
+ @Autowired
+  public void setUser(User user) {
+	System.out.println("Setter Method called for Wiring..");
+	this.user = user;
+}
+
+ public Message() {
+	System.out.println("Message object Constructed & Intialized..");
+	
+  }
+}

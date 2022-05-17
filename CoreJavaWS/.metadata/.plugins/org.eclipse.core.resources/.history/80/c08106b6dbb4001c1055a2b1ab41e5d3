@@ -1,0 +1,8 @@
+package com.training.spring.core.beans;
+
+public class Customer {
+long custId;
+String custName;
+ String address;
+ int order;
+}

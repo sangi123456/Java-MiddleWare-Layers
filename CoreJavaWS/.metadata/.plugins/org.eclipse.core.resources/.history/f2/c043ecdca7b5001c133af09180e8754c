@@ -1,0 +1,20 @@
+package com.training.spring.core.ecommerce;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Customer {
+
+	private int custId;
+	private String custName;
+	private Address address;
+	private Order order;
+	
+	public Customer(@Value("${customer.id}") int custId, @Value("${customer.name}")String custName, Address address) {
+     	this.custId = custId;
+		this.custName = custName;
+		this.address = address;
+	}
+	
+}

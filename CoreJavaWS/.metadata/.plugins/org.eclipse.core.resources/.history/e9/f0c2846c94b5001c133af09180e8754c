@@ -1,0 +1,5 @@
+//property file will conatain key=value
+
+message.text = hello from property file
+message.id = 1000
+user.username = vaishu

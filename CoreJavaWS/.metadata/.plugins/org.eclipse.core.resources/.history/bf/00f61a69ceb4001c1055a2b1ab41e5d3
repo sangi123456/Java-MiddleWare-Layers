@@ -1,0 +1,40 @@
+package com.training.spring.core.beans;
+
+import org.springframework.stereotype.Component;
+
+//@component will be processed to produce <bean>  </bean>
+//<bean id = "name of the class starts with small letters"
+//only one object of the bean will bve created in the spring conatiner
+
+@Component(value="messageObj")
+public class Message {
+	
+private String text;
+private long messageId;
+
+
+public String getText() {
+	return text;
+}
+
+
+public void setText(String text) {
+	this.text = text;
+}
+
+
+public long getMessageId() {
+	return messageId;
+}
+
+
+public void setMessageId(long messageId) {
+	this.messageId = messageId;
+}
+
+
+public Message() {
+	System.out.println("Message object Constructed & Intialized..");
+	
+  }
+}

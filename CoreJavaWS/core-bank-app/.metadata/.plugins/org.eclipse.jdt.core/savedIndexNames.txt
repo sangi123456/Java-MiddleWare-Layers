@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\MiddleWare Layer\CoreJavaWS\core-bank-app\.metadata\.plugins\org.eclipse.jdt.core
+786365878.index
+148199190.index

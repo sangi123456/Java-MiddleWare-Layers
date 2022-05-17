@@ -1,0 +1,5 @@
+package com.training.spring.core.cusomerdetails;
+
+public class Order {
+
+}

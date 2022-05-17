@@ -1,0 +1,13 @@
+package com.training.spring.core.ecommerce;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestEcommerce {
+public static void main(String[] args) {
+	//step 1
+	ApplicationContext container = new ClassPathXmlApplicationContext("spring-beans.xml");
+    
+    System.out.println("Container succesfully created...);
+}
+}

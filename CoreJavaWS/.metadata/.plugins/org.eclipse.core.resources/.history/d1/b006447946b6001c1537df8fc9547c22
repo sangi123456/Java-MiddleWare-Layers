@@ -1,0 +1,37 @@
+package com.training.spring.core.ecommerce;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+
+import com.training.spring.core.onlineshopping.Customer;
+
+
+
+public class TestEcommerce {
+
+
+
+public static void main(String[] args)
+{
+//step 1:intantiate container
+ApplicationContext context;
+context =new ClassPathXmlApplicationContext("spring-beans.xml");
+
+System.out.println("customer created successfully ..");
+
+//getbean(bean-name) or getBean(bean class)
+Customer1 customer1=context.getBean(Customer1.class);
+
+System.out.println(customer1.getCustId()+" "+customer1.getCustName()+" "+
+customer1.getAddress().getCity()+" "+customer1.getOrder().getOrderDate());
+
+}
+
+
+
+}

@@ -1,0 +1,34 @@
+package com.training.spring.core.beans;
+
+public class Customer {
+long custId;
+String custName;
+ String address;
+ int order;
+ //getter & setter
+public long getCustId() {
+	return custId;
+}
+public void setCustId(long custId) {
+	this.custId = custId;
+}
+public String getCustName() {
+	return custName;
+}
+public void setCustName(String custName) {
+	this.custName = custName;
+}
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+public int getOrder() {
+	return order;
+}
+public void setOrder(int order) {
+	this.order = order;
+}
+ 
+}

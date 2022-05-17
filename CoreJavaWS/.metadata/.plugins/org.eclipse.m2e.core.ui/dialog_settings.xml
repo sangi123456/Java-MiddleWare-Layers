@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Sangit104101\Downloads\spring-in-5-steps\spring-in-5-steps"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\mockito-course"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\JunitCourse"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\merchandising-app"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\database-operation-app\src\main\java\com\training\core\jdbc\TestDBConnection.java"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\core-bank-app\src\main\java\com\training\api\inheritance\test\TestTransactionAccount.java"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\core-bank-app\src\main\java\com\training\api\service"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\first-maven-project"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\core-bank-app\src"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\basic-java-app\src\test\java\com\training\core\java\AppTest.java"/>
+			<item value="D:\MiddleWare Layer\CoreJavaWS\basic-java-app"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.training.spring.core.first_springcore_app"/>
+			<item value="com.training.api.core"/>
+			<item value="com.training.core"/>
+			<item value="com.training.core.mockito.Merchandise"/>
+			<item value="com.training.core.mockito.mockito_example"/>
+			<item value="com.training.core.unittesting.JunitCourse"/>
+			<item value="com.training.core.jdbc"/>
+			<item value="com.training.core.jdbc.database_operation_app"/>
+			<item value="com.training.core.java_exception_demo"/>
+			<item value="com.training.core.java_collection_app"/>
+			<item value="com.merchandise.consolepack"/>
+			<item value="com.merchandise.consolepack.merchandising_app"/>
+			<item value="com.merchandise.consolepack.merchandising_console_based_application"/>
+		</list>
+		<list key="groupId">
+			<item value="com.training.spring.core"/>
+			<item value="com.training.api.core"/>
+			<item value="com.training.core.mockito"/>
+			<item value="com.training.core.unittesting"/>
+			<item value="com.training.core.jdbc"/>
+			<item value="com.training.core"/>
+			<item value="com.merchandise.consolepack"/>
+		</list>
+		<list key="artifactId">
+			<item value="first-springcore-app"/>
+			<item value="merchandise-application-casestudy"/>
+			<item value="Merchandise"/>
+			<item value="mockito-example"/>
+			<item value="JunitCourse"/>
+			<item value="database-operation-app"/>
+			<item value="java-exception-demo"/>
+			<item value="java-collection-app"/>
+			<item value="merchandising-app"/>
+			<item value="merchandising-console-based-application"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Sangit104101\Downloads\spring-in-5-steps"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
